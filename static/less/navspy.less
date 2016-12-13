@@ -1,0 +1,63 @@
+.bgcolor(@color){
+	background-color:@color;
+}
+
+.navspy{
+	width:36px;
+	position:fixed;
+	bottom:20px;
+	display:none;
+	overflow:hidden;
+
+	li{
+		width:36px;
+		height:36px;
+		margin-bottom:2px;
+		font-size:11px;
+		line-height:13px;
+	}
+
+	a{
+		display:block;
+		width:24px;
+		height:30px;
+		padding:6px 6px 0 6px;
+		background:#626262;
+		color:#fff;	
+		text-align:center;	
+	}
+
+	.title a{
+		line-height:24px;
+		background:#dd2727;
+	}
+
+	.active a{
+		background:#dd2727;
+	}
+
+
+	.item-list2.active a,.item-list2 a:hover{
+		.bgcolor(@color:#64c333)
+	}
+	.item-list3.active a,.item-list3 a:hover{
+		.bgcolor(@color:#ea5f8d)
+	}
+	.item-list4.active a,.item-list4 a:hover{
+		.bgcolor(@color:#f7a945)
+	}
+	.item-list5.active a,.item-list5 a:hover{
+		.bgcolor(@color:#19c8a9)
+	}
+	.item-list6.active a,.item-list6 a:hover{
+		.bgcolor(@color:#f15453)
+	}
+	.item-list7.active a,.item-list7 a:hover{
+		.bgcolor(@color:#0aa6e8)
+	}
+	.item-list10 a,.item-list10.active a,.item-list10 a:hover{
+		.bgcolor(@color:#acacac)
+	}
+
+
+}
